@@ -1,7 +1,3 @@
-// ignore_for_file: unused_local_variable
-
-import 'dart:async';
-
 void main() {
   List<int> numbers = [
     1,
@@ -18,7 +14,7 @@ void main() {
     8,
     9,
   ];
-  int num = numbers[0] = 1;
+
   int small = numbers[0] = 1;
   int greatest = numbers[0] = 1;
   for (var a in numbers) {
