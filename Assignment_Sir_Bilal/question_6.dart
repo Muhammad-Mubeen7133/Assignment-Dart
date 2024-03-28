@@ -19,7 +19,6 @@ void main() {
     },
   };
   final France = world['countries']['Afghanistan'];
-
   print('Capital city of is: ${France['capitalCity']}');
   print('Currency is : ${France['currency']}');
   print('Language is : ${France['language']}');
